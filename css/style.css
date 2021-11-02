@@ -266,11 +266,6 @@ h6 {
   border-radius: 8px;
 }
 
-
-
-
-
-
 .tabs-nav {
   display: flex;
   justify-content: center;
@@ -318,11 +313,9 @@ h6 {
   color: var(--color-White);
 }
 
-
 .tab {
   background-color: #f2f2f2;
   display: none;
-
 }
 
 .tab.is-active {
@@ -541,7 +534,6 @@ h6 {
 
 /* ----------------Header------------------- */
 
-
 /* .header__logo {
   padding: 0px 50px;
   height: 117px;
@@ -749,9 +741,9 @@ h6 {
   grid-column-end: 3;
 }
 
-.footer__logo {}
+/* .footer__logo {}
 
-.footer-menu-contacts__wrapper {}
+.footer-menu-contacts__wrapper {} */
 
 .footer__menu {
   /* display: grid;
@@ -990,7 +982,6 @@ h6 {
 }
 
 .main__description {
-
   font-family: 'Montserrat';
   font-weight: 400;
 
