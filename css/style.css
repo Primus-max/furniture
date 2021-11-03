@@ -733,7 +733,7 @@ h6 {
 } */
 
 .menu__item.menu__item:not(:first-child) {
-  padding: 10px 10px;
+  padding: 10px 0;
   cursor: pointer;
   white-space: nowrap;
   /* position: relative; */
