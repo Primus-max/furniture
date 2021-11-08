@@ -1137,7 +1137,7 @@ h6 {
 .advantages__picture::after {
   content: '';
   position: absolute;
-  width: 100%;
+  width: 90%;
   height: 100%;
   top: -50px;
   left: -50px;
@@ -5254,6 +5254,103 @@ button {
     right: -118px;
   }
 
+
+  /* --------------------------------block/advantages----------------------------- */
+
+  .advantages__body {
+    padding-top: 176px;
+    width: 100%;
+  }
+
+  .advantages__picture {
+    width: calc(553 / 1440 * 100%);
+    height: 560px;
+    margin-top: 29px;
+  }
+
+
+  .advantages__content {
+    margin-left: 7vw;
+  }
+
+  .advantages__content-block {
+    width: clamp(167px, 42vw, 795px);
+    /* padding-left: clamp(10px, 12%, 62px); */
+    padding-left: 2.7vw;
+    padding-top: 3vh;
+    /* padding-top: clamp(10px, 2%, 48px); */
+  }
+
+
+  .advantages__title {
+    font-size: calc(42px + (6 + 6 * 0.7) * ((100vw - 1151px) / 1920));
+  }
+
+  .advantages__description {
+    margin-top: 3vh;
+    padding-right: 1.5vw;
+    font-size: calc(16px + (4 + 4 * 0.7) * ((100vw - 1151px) / 1920));
+  }
+
+  .advantages__info {
+    width: clamp(167px, 42vw, 795px);
+    margin-top: 10%;
+  }
+
+  .advantages__info-item {
+    width: 30%;
+    padding: 0;
+    margin-left: 6%;
+
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .advantages__info-item:first-child {
+    margin-left: 4%;
+    padding-right: 0;
+    ;
+  }
+
+  .advantages__info-item:nth-child(2) {
+    position: relative;
+    width: 40%;
+    margin-left: 0;
+    padding: 0 9%;
+  }
+
+  .advantages__info-item::after {
+    position: absolute;
+    content: '';
+    width: 900px;
+    height: 2px;
+    top: 60px;
+    left: 0;
+    transform: rotate(90deg);
+
+    background-color: var(--color-border);
+  }
+
+  .advantages__info-item:last-child {
+    position: relative;
+    padding-left: 2%;
+  }
+
+  /* .advantages__info-item:last-child::before {
+    position: absolute;
+    content: '';
+    width: 900px;
+    height: 2px;
+    top: 60px;
+    left: 0;
+
+    transform: translate(90deg);
+  } */
+
+
+  .advantages__advantage {
+    margin-top: 6%;
+  }
 }
 
 
