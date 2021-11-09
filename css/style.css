@@ -5340,6 +5340,16 @@ button {
     padding-top: 72px;
     border: none;
   }
+
+  .footer .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer__offer {
+    display: none;
+  }
 }
 
 
