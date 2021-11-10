@@ -131,8 +131,8 @@
             </div>
             <div class="main__picture">
               <picture>
-                <source srcset="img/main/picture-1.webp" type="image/webp"><img class="main-picture"
-                  src="img/main/picture-1.png" alt="picture"></picture>
+                <source srcset="img/main/picture-1.webp" type="image/webp">
+                <img class="main-picture" src="img/main/picture-1.png" alt="Фото углового дивана"></picture>
               <picture>
                 <source srcset="img/main/picture-2.webp" type="image/webp"><img class="absolute-picture"
                   src="img/main/picture-2.png" alt="picture"></picture>
@@ -1132,9 +1132,15 @@
       <div class="container-border">
         <div class="banner__body">
           <div class="banner__picture">
-            <img src="img/price/pngwing6.png" class="desk__pict">
-            <img src="img/price/png5.png" class="mobile__pict">
-            <img src="img/price/ipad.png" class="ipad__pict">
+            <picture>
+              <source srcset="img/price/pngwing6.png 1x, img/price/pngwing6@3x.png 3x" media="(min-width: 1920px)">
+              <source srcset="img/price/ipad.png 1x, img/price/ipad@3x.png 3x" media="(min-width: 769px)">
+              <img src="img/price/png5.png" srcset="img/price/png5@3x.png 3x" alt="Фото углового дивана">
+
+              <!-- <img src="img/price/pngwing6.png" class="desk__pict">
+              <img src="img/price/png5.png" class="mobile__pict">
+              <img src="img/price/ipad.png" class="ipad__pict"> -->
+            </picture>
           </div>
           <div class="banner__info">
             <p class="banner__title">Получи скидку в <span class="number">20%</span> при комплексной перешивке
