@@ -31,15 +31,15 @@
             </li>
 
             <li class="menu__item" inert>
-              <a class="menu__item-link" tabindex="1" href="#price">Стоимость услуг</a>
+              <a class="menu__item-link" tabindex="2" href="#price">Стоимость услуг</a>
             </li>
 
             <li class="menu__item" inert>
-              <a class="menu__item-link" tabindex="1" href="#materials">Материалы</a>
+              <a class="menu__item-link" tabindex="3" href="#materials">Материалы</a>
             </li>
 
             <li class="menu__item" inert>
-              <a class="menu__item-link" tabindex="1" href="#feedbacks">Отзывы</a>
+              <a class="menu__item-link" tabindex="4" href="#feedbacks">Отзывы</a>
             </li>
 
           </ul>
@@ -129,14 +129,23 @@
                   </br>с 2001 года. </span></div>
               <button class="main__btn button-1" tabindex="0"><span>Бесплатная консультация</span></button>
             </div>
+
+            <!-- ------------------------------------TODO-------------------------------------------------- -->
             <div class="main__picture">
-              <picture>
-                <source srcset="img/main/picture-1.webp" type="image/webp">
-                <img class="main-picture" src="img/main/picture-1.png" alt="Фото углового дивана"></picture>
+              <picture class="main-picture">
+                <!-- <source srcset=" img/main/main-picture-desk.webp, img/main/main-picture-desk@3x.png 3x"
+                  type="image/webp"> -->
+                <img class="main-picture" src="img/main/main-picture-tab.webp" srcset="img/main/main-picture-tab.png"
+                  alt="Фото углового дивана">
+
+                <!-- <source srcset="img/price/pngwing6.png 1x, img/price/pngwing6@3x.png 3x" media="(min-width: 1920px)"> -->
+                <!-- <img class="main-picture" src="img/main/main-picture-desk.png" alt="Фото углового дивана"> -->
+              </picture>
               <picture>
                 <source srcset="img/main/picture-2.webp" type="image/webp"><img class="absolute-picture"
                   src="img/main/picture-2.png" alt="picture"></picture>
             </div>
+
           </div>
         </div>
       </div>
@@ -149,8 +158,10 @@
           <div class="advantages__body">
             <div class="advantages__picture">
               <picture>
-                <source srcset="img/advantages/picture-1.webp" type="image/webp"><img src="img/advantages/picture-1.png"
-                  alt="picture"></picture>
+                <source srcset="img/advantages/picture-1.png 1x, img/advantages/picture-1@3x.png 3x">
+                <source srcset="img/advantages/picture-1.webp" type="image/webp">
+                <img src=" img/advantages/picture-1.png" alt="Фото выполненной рабты">
+              </picture>
             </div>
             <div class="advantages__content">
               <div class="advantages__content-block">
@@ -250,8 +261,14 @@
                   <div class="tab__body">
                     <div class="tab__picture">
                       <picture>
-                        <source srcset="img/examples/sofa/picture-1.webp" type="image/webp"><img
-                          src="img/examples/sofa/picture-1.png" alt="picture"></picture>
+                        <source media="(min-width: 1920px)"
+                          srcset="img/examples/sofa/picture-1.png, img/examples/sofa/picture-1@3x.png 3x">
+                        <source media="(min-width: 769px)"
+                          srcset="img/examples/sofa/picture-1-tab.png, img/examples/sofa/picture-1-tab@3x.png 3x">
+                        <img src="img/examples/sofa/picture-1-mob.png"
+                          srcset="img/examples/sofa/picture-1-mob@3x.png 3x" alt="Фото дивана">
+                        <source srcset="img/examples/sofa/picture-1.webp" type="image/webp">
+                      </picture>
                     </div>
                     <div class="tab__info">
                       <div class="tab__title">Диваны</div>
@@ -269,29 +286,47 @@
                     </div>
                     <div class="tab__picture">
                       <picture>
-                        <source srcset="img/examples/sofa/picture-2.webp" type="image/webp"><img
-                          src="img/examples/sofa/picture-2.png" alt="picture"></picture>
+                        <source media="(min-width: 1920px)"
+                          srcset="img/examples/sofa/picture-2.png, img/examples/sofa/picture-2@3x.png 3x">
+                        <source media="(min-width: 769px)"
+                          srcset="img/examples/sofa/picture-2-tab.png, img/examples/sofa/picture-2-tab@3x.png 3x">
+                        <img src="img/examples/sofa/picture-2-mob.png"
+                          srcset="img/examples/sofa/picture-2-mob@3x.png 3x" alt="Фото дивана">
+                        <source srcset="img/examples/sofa/picture-2.webp" type="image/webp">
+                      </picture>
                     </div>
                     <div class="tab__picture">
                       <picture>
-                        <source srcset="img/examples/sofa/picture-3.webp" type="image/webp"><img
-                          src="img/examples/sofa/picture-3.png" alt="picture"></picture>
+                        <source media="(min-width: 1920px)"
+                          srcset="img/examples/sofa/picture-3.png, img/examples/sofa/picture-3@3x.png 3x">
+                        <source media="(min-width: 769px)"
+                          srcset="img/examples/sofa/picture-3-tab.png, img/examples/sofa/picture-3-tab@3x.png 3x">
+                        <img src="img/examples/sofa/picture-3-mob.png"
+                          srcset="img/examples/sofa/picture-3-mob@3x.png 3x" alt="Фото дивана">
+                        <source srcset="img/examples/sofa/picture-3.webp" type="image/webp">
+                      </picture>
                     </div>
                     <div class="tab__picture">
                       <picture>
-                        <source srcset="img/examples/sofa/picture-4.webp" type="image/webp"><img
-                          src="img/examples/sofa/picture-4.png" alt="picture"></picture>
+                        <source media="(min-width: 1920px)"
+                          srcset="img/examples/sofa/picture-4.png, img/examples/sofa/picture-4@3x.png 3x">
+                        <source media="(min-width: 769px)"
+                          srcset="img/examples/sofa/picture-4-tab.png, img/examples/sofa/picture-4-tab@3x.png 3x">
+                        <img src="img/examples/sofa/picture-4-mob.png"
+                          srcset="img/examples/sofa/picture-4-mob@3x.png 3x" alt="Фото дивана">
+                        <source srcset="img/examples/sofa/picture-4.webp" type="image/webp">
+                      </picture>
                     </div>
                   </div>
                 </div>
                 <div class="tab armchair">
 
                   <div class="tab__body">
-                    <div class="tab__picture">
+                    <!-- <div class="tab__picture">
                       <picture>
                         <source srcset="img/examples/armchair/picture-1.webp" type="image/webp"><img
                           src="img/examples/armchair/picture-1.png" alt="picture"></picture>
-                    </div>
+                    </div> -->
                     <div class="tab__info">
                       <div class="tab__title">Кресла</div>
                       <div class="tab__description">Для своих клиентов мы с легкостью перешьем кресла от маленьких до
@@ -1191,13 +1226,13 @@
             <div class="feedbacks__pictures">
               <div class="feedbacks__picture">
                 <picture>
-                  <source srcset="img/feedbacks/picture-1.webp" type="image/webp"><img src="img/feedbacks/picture-1.png"
-                    alt=""></picture>
+                  <source srcset="img/feedbacks/picture-1.webp, img/feedbacks/picture-1@3x.png 3x" type="image/webp">
+                  <img src="img/feedbacks/picture-1.png" alt="Фото дивана"></picture>
               </div>
               <div class="feedbacks__picture">
                 <picture>
-                  <source srcset="img/feedbacks/picture-2.webp" type="image/webp"><img src="img/feedbacks/picture-2.png"
-                    alt=""></picture>
+                  <source srcset="img/feedbacks/picture-2.webp, img/feedbacks/picture-2@3x.png 3x" type="image/webp">
+                  <img src="img/feedbacks/picture-2.png" alt="Фото дивана"></picture>
               </div>
             </div>
           </div>
@@ -1243,8 +1278,11 @@
                             <div data-material="wool-1" class="slider__item">
                               <div class="selection-block-item__picture">
                                 <picture>
-                                  <source srcset="img/selection/wool/picture-1.webp" type="image/webp"><img
-                                    src="img/selection/wool/picture-1.png" alt=""></picture>
+                                  <source
+                                    srcset="img/selection/wool/picture-1.webp, img/selection/wool/picture-1@3x.png 3x"
+                                    type="image/webp">
+                                  <img src="img/selection/wool/picture-1.png" alt="Фото образца материала">
+                                </picture>
                               </div>
                               <button class="selection-block-item__btn">
                                 <svg>
@@ -1255,8 +1293,11 @@
                             <div data-material="wool-2" class="slider__item">
                               <div class="selection-block-item__picture">
                                 <picture>
-                                  <source srcset="img/selection/wool/picture-2.webp" type="image/webp"><img
-                                    src="img/selection/wool/picture-2.png" alt=""></picture>
+                                  <source
+                                    srcset="img/selection/wool/picture-2.webp, img/selection/wool/picture-2@3x.png 3x"
+                                    type="image/webp">
+                                  <img src="img/selection/wool/picture-2.png" alt="Фото образца материала">
+                                </picture>
                               </div>
                               <button class="selection-block-item__btn">
                                 <svg>
@@ -1267,8 +1308,11 @@
                             <div data-material="wool-3" class="slider__item">
                               <div class="selection-block-item__picture">
                                 <picture>
-                                  <source srcset="img/selection/wool/picture-3.webp" type="image/webp"><img
-                                    src="img/selection/wool/picture-3.png" alt=""></picture>
+                                  <source
+                                    srcset="img/selection/wool/picture-3.webp, img/selection/wool/picture-3@3x.png 3x"
+                                    type="image/webp">
+                                  <img src="img/selection/wool/picture-3.png" alt="Фото образца материала">
+                                </picture>
                               </div>
                               <button class="selection-block-item__btn">
                                 <svg>
@@ -1279,8 +1323,11 @@
                             <div data-material="wool-4" class="slider__item">
                               <div class="selection-block-item__picture">
                                 <picture>
-                                  <source srcset="img/selection/wool/picture-4.webp" type="image/webp"><img
-                                    src="img/selection/wool/picture-4.png" alt=""></picture>
+                                  <source
+                                    srcset="img/selection/wool/picture-4.webp, img/selection/wool/picture-4@3x.png 3x"
+                                    type="image/webp">
+                                  <img src="img/selection/wool/picture-4.png" alt="Фото образца материала">
+                                </picture>
                               </div>
                               <button class="selection-block-item__btn">
                                 <svg>
@@ -1291,8 +1338,11 @@
                             <div data-material="wool-5" class="slider__item">
                               <div class="selection-block-item__picture">
                                 <picture>
-                                  <source srcset="img/selection/wool/picture-5.webp" type="image/webp"><img
-                                    src="img/selection/wool/picture-5.png" alt=""></picture>
+                                  <source
+                                    srcset="img/selection/wool/picture-5.webp, img/selection/wool/picture-5@3x.png 3x"
+                                    type="image/webp">
+                                  <img src="img/selection/wool/picture-5.png" alt="Фото образца материала">
+                                </picture>
                               </div>
                               <button class="selection-block-item__btn">
                                 <svg>
@@ -1303,8 +1353,11 @@
                             <div data-material="wool-6" class="slider__item">
                               <div class="selection-block-item__picture">
                                 <picture>
-                                  <source srcset="img/selection/wool/picture-6.webp" type="image/webp"><img
-                                    src="img/selection/wool/picture-6.png" alt=""></picture>
+                                  <source
+                                    srcset="img/selection/wool/picture-6.webp, img/selection/wool/picture-6@3x.png 3x"
+                                    type="image/webp">
+                                  <img src="img/selection/wool/picture-6.png" alt="Фото образца материала">
+                                </picture>
                               </div>
                               <button class="selection-block-item__btn">
                                 <svg>
@@ -1315,8 +1368,11 @@
                             <div data-material="wool-7" class="slider__item">
                               <div class="selection-block-item__picture">
                                 <picture>
-                                  <source srcset="img/selection/wool/picture-2.webp" type="image/webp"><img
-                                    src="img/selection/wool/picture-2.png" alt=""></picture>
+                                  <source
+                                    srcset="img/selection/wool/picture-2.webp, img/selection/wool/picture-2@3x.png 3x"
+                                    type="image/webp">
+                                  <img src="img/selection/wool/picture-2.png" alt="Фото образца материала">
+                                </picture>
                               </div>
                               <button class="selection-block-item__btn">
                                 <svg>
@@ -1327,8 +1383,11 @@
                             <div data-material="wool-8" class="slider__item">
                               <div class="selection-block-item__picture">
                                 <picture>
-                                  <source srcset="img/selection/wool/picture-3.webp" type="image/webp"><img
-                                    src="img/selection/wool/picture-3.png" alt=""></picture>
+                                  <source
+                                    srcset="img/selection/wool/picture-3.webp, img/selection/wool/picture-3@3x.png 3x"
+                                    type="image/webp">
+                                  <img src="img/selection/wool/picture-3.png" alt="Фото образца материала">
+                                </picture>
                               </div>
                               <button class="selection-block-item__btn">
                                 <svg>
@@ -2363,19 +2422,19 @@
             <ul class="menu">
 
               <li class="menu__item">
-                <a class="menu__item-link" href="#examples" tabindex="0">Примеры работ</a></li>
+                <a class="menu__item-link" href="#examples" tabindex="1">Примеры работ</a></li>
 
 
               <li class="menu__item">
-                <a class="menu__item-link" href="#price" tabindex="0">Стоимость услуг</a>
+                <a class="menu__item-link" href="#price" tabindex="2">Стоимость услуг</a>
               </li>
 
               <li class="menu__item">
-                <a class="menu__item-link" href="#materials" tabindex="0">Материалы</a>
+                <a class="menu__item-link" href="#materials" tabindex="3">Материалы</a>
               </li>
 
               <li class="menu__item">
-                <a class="menu__item-link" href="#feedbacks" tabindex="0">Отзывы</a>
+                <a class="menu__item-link" href="#feedbacks" tabindex="4">Отзывы</a>
               </li>
 
             </ul>

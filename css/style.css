@@ -757,6 +757,11 @@ h6 {
   /* position: relative; */
 }
 
+/* 
+.menu__item.menu__item:focus {
+  outline: 2px solid red;
+} */
+
 .menu__item-link {
   color: var(--color-Black);
 }
@@ -3529,8 +3534,6 @@ button {
     font-size: 42px;
   }
 
-
-
   .materials__content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -3924,7 +3927,6 @@ button {
   }
 
   .examples__title {
-
     font-weight: 600;
     font-size: 24px;
     line-height: 140%;
@@ -3943,7 +3945,6 @@ button {
 
   .examples__btn {
     margin-top: 6px;
-
   }
 
   .price__body {
@@ -3963,7 +3964,6 @@ button {
   }
 
   .price__description {
-
     font-weight: 500;
     width: 540px;
     font-size: 12px;
@@ -4016,7 +4016,6 @@ button {
   }
 
   .banner__picture {
-
     height: auto;
     max-width: 100%;
   }
@@ -4593,7 +4592,6 @@ button {
     display: flex;
     flex-direction: column;
     border: none;
-
   }
 
   .footer {
@@ -5238,6 +5236,8 @@ button {
     display: none;
   }
 
+
+
   .main__picture .main-picture {
     margin-top: -69px;
     margin-left: 5%;
@@ -5249,7 +5249,6 @@ button {
 
 
   /* --------------------------------block/advantages----------------------------- */
-
 
   .advantages__body {
     padding-top: 176px;
@@ -5327,8 +5326,6 @@ button {
 
   /* ---------------------------------------block/examples-------------------------- */
 
-
-
   .examples__body {
     position: relative;
     width: clamp(500px, 80vw, 1476px);
@@ -5362,10 +5359,12 @@ button {
   }
 }
 
-
-
-
 @media (min-width: 1920px) {
+
+  /* .main__picture {
+    padding-top: 152px;
+    padding-left: 38px;
+  } */
 
   .advantages__info-item:nth-child(2) {
     padding-left: 67px;
@@ -5577,7 +5576,7 @@ button {
 
   .materials__title {
     display: block;
-    max-width: 694px;
+    max-width: 715px;
     margin: 0;
     font-size: 48px;
   }
