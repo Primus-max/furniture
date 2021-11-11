@@ -998,6 +998,13 @@ h6 {
   display: flex;
 }
 
+.footer__icon-link {
+  display: block;
+  box-sizing: border-box;
+  width: 46px;
+  height: 46px;
+}
+
 .footer__icon svg {
   width: 42px;
   height: 42px;
@@ -2541,6 +2548,14 @@ h6 {
   width: 100%;
   height: 1px;
   background-color: var(--color-border);
+}
+
+.selection-block-item__title:focus-visible {
+  width: 80%;
+  height: 40px;
+  border: 2px solid var(--color-Complementary);
+  border-radius: 6px;
+  transition-duration: 500ms;
 }
 
 .selection-block-item .slider {
