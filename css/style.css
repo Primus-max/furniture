@@ -106,7 +106,9 @@ It might look too disabled in many browsers.
 button:focus-visible,
 input:focus-visible,
 a:focus-visible {
-  border: 4px solid aquamarine;
+  border: 2px solid var(--color-Complementary);
+  border-radius: 6px;
+  transition-duration: 500ms;
 }
 
 *,
@@ -758,6 +760,11 @@ h6 {
 }
 
 /* 
+.menu__item-link:focus {
+  outline: 2px solid red;
+} */
+
+/* 
 .menu__item.menu__item:focus {
   outline: 2px solid red;
 } */
@@ -827,7 +834,13 @@ h6 {
   font-weight: 500;
   font-size: 12px;
   color: var(--color-Black);
+  outline: none;
 }
+
+/* .phone-link:focus {
+  display: block;
+  outline: 1px solid red;
+} */
 
 .work-time {
   font-family: Montserrat;
@@ -5185,6 +5198,11 @@ button {
     padding-bottom: 0;
   }
 
+  .menu__item:focus {
+    /* box-sizing: border-box; */
+    border-bottom: 2px solid var(--color-border);
+  }
+
   .menu__item-link {
     font-size: 1vw;
   }
@@ -5709,4 +5727,22 @@ button {
     bottom: 119px;
     right: 83px;
   }
+
+
+  .header__logo:focus-visible {
+    display: block;
+    border: 4px solid aquamarine;
+  }
+
+
+
+  .menu__item-link {
+    margin-right: 5%;
+  }
+
+  .menu__item-link:focus-visible {
+    display: block;
+    border: 4px solid aquamarine;
+  }
+
 }

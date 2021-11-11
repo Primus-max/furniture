@@ -19,34 +19,36 @@
 <body>
   <header class="page-header header">
     <div class="header__wrapper">
-      <p class="logo-small header__logo">
+      <p class="logo-small header__logo" tabindex="0">
         <img src="img/icons/logo.svg" alt="Логотип компании Nuwmeb">
       </p>
 
       <div class="header__body">
         <nav class="header__menu">
           <ul class="menu">
-            <li class="menu__item" inert>
-              <a class="menu__item-link" tabindex="1" href="#examples">Примеры работ</a>
+
+            <li tabindex="0" class="menu__item" inert>
+              <a class="menu__item-link" href="#examples">Примеры работ</a>
             </li>
 
-            <li class="menu__item" inert>
-              <a class="menu__item-link" tabindex="2" href="#price">Стоимость услуг</a>
+            <li tabindex="0" class="menu__item" inert>
+              <a class="menu__item-link" href="#price">Стоимость услуг</a>
             </li>
 
-            <li class="menu__item" inert>
-              <a class="menu__item-link" tabindex="3" href="#materials">Материалы</a>
+            <li tabindex="0" class="menu__item" inert>
+              <a class="menu__item-link" href="#materials">Материалы</a>
             </li>
 
-            <li class="menu__item" inert>
-              <a class="menu__item-link" tabindex="4" href="#feedbacks">Отзывы</a>
+            <li tabindex="0" class="menu__item" inert>
+              <a class="menu__item-link" href="#feedbacks">Отзывы</a>
             </li>
 
           </ul>
         </nav>
 
         <div class="contacts">
-          <p class="phone"><a class="phone-link" href="tel:88222222222" tabindex="0">8 (822) 222-22-22</a></p>
+          <p class="visually-hidden">Контактные данные</p>
+          <p class="phone"><a class="phone-link" href="tel:88222222222">8 (822) 222-22-22</a></p>
           <p class="work-time">ПН-ВС: 9:00-19:00</p>
         </div>
       </div>
@@ -127,7 +129,7 @@
               <div class="main__description"> <span class='main__description-text'>Мебель станет как новая, и прослужит
                   долгие годы. </br>Работаем в СПБ
                   </br>с 2001 года. </span></div>
-              <button class="main__btn button-1" tabindex="0"><span>Бесплатная консультация</span></button>
+              <button class="main__btn button-1"><span>Бесплатная консультация</span></button>
             </div>
 
             <!-- ------------------------------------TODO-------------------------------------------------- -->
@@ -2422,19 +2424,19 @@
             <ul class="menu">
 
               <li class="menu__item">
-                <a class="menu__item-link" href="#examples" tabindex="1">Примеры работ</a></li>
+                <a class="menu__item-link" href="#examples">Примеры работ</a></li>
 
 
               <li class="menu__item">
-                <a class="menu__item-link" href="#price" tabindex="2">Стоимость услуг</a>
+                <a class="menu__item-link" href="#price">Стоимость услуг</a>
               </li>
 
               <li class="menu__item">
-                <a class="menu__item-link" href="#materials" tabindex="3">Материалы</a>
+                <a class="menu__item-link" href="#materials">Материалы</a>
               </li>
 
               <li class="menu__item">
-                <a class="menu__item-link" href="#feedbacks" tabindex="4">Отзывы</a>
+                <a class="menu__item-link" href="#feedbacks">Отзывы</a>
               </li>
 
             </ul>
