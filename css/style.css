@@ -3,7 +3,6 @@
   font-family: 'Montserrat';
   src: local('Montserrat'),
     url(../fonts/Montserrat/Montserrat-Light.ttf);
-
 }
 
 @font-face {
@@ -11,7 +10,6 @@
   font-family: 'MontserratRegular';
   src: local('MontserratRegular'),
     url(../fonts/Montserrat/Montserrat-Regular.ttf);
-
 }
 
 @font-face {
@@ -19,7 +17,6 @@
   font-family: 'MontserratSemiBold';
   src: local('MontserratSemiBold'),
     url(../fonts/Montserrat/Montserrat-SemiBold.ttf);
-
 }
 
 @font-face {
@@ -27,7 +24,6 @@
   font-family: 'MontserratBlack';
   src: local('MontserratBlack'),
     url(../fonts/Montserrat/Montserrat-Black.ttf);
-
 }
 
 @font-face {
@@ -35,7 +31,6 @@
   font-family: 'MontserratBold';
   src: local('MontserratBold'),
     url(../fonts/montserrat/Montserrat-Bold.ttf);
-
 }
 
 @font-face {
@@ -43,7 +38,6 @@
   font-family: 'MontserratExtraBold';
   src: local('MontserratExtraBold'),
     url(../fonts/Montserrat/Montserrat-ExtraBold.ttf);
-
 }
 
 @font-face {
@@ -51,7 +45,6 @@
   font-family: 'MontserratExtraLight';
   src: local('MontserratExtraLight'),
     url(../fonts/Montserrat/Montserrat-ExtraLight.ttf);
-
 }
 
 @font-face {
@@ -59,7 +52,6 @@
   font-family: 'MontserratMedium';
   src: local('MontserratMedium'),
     url(../fonts/Montserrat/Montserrat-Medium.ttf);
-
 }
 
 
@@ -2152,10 +2144,10 @@ h6 {
 .feedbacks__title::after {
   position: absolute;
   content: '';
-  width: 55px;
+  width: 16vw;
   height: 4px;
-  top: 43px;
-  left: 112px;
+  top: 67px;
+  left: 208px;
   border-top: 1px solid var(--color-border);
   border-bottom: 1px solid var(--color-border);
 }
@@ -2234,7 +2226,7 @@ h6 {
   flex: 0 0 100%;
   max-width: 100%;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 
   display: -webkit-box;
   display: -webkit-flex;
@@ -5375,6 +5367,12 @@ button {
     justify-content: flex-start;
     align-items: flex-start;
   }
+
+  .feedbacks__title::after {
+    top: 39px;
+    left: 93px;
+  }
+
 
   /* 
   .slider__item {
