@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=0">
   <meta name="keywords" content="перетяжка мебели, цены на перетяжку мебели, перетяжка мебели в СПБ">
   <meta name="description" content="Перетяжка Мебели в Санкт-Петербурге" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -54,7 +54,7 @@
           <p class="work-time">ПН-ВС: 9:00-19:00</p>
         </div>
       </div>
-      <button id="menu_btn" class="burger">
+      <button id="menu_btn" class="burger" aria-label="Кнопка меню">
         <span aria-labelledby="menu_btn" class="burger__img visually-hidden">Открыть меню</span>
         <span class="burger__pseudo"></span>
       </button>
@@ -130,7 +130,8 @@
 
               <div class="main__description"> <span class='main__description-text'>Мебель станет как новая, и прослужит
                   долгие годы.</br>Работаем в СПБ </br>с 2001 года. </span></div>
-              <button name="" class="main__btn button-1"><span>Бесплатная консультация</span></button>
+              <button class="main__btn button-1" aria-label="Получить консультацию"><span>Бесплатная
+                  консультация</span></button>
             </div>
 
             <!-- ------------------------------------TODO-------------------------------------------------- -->
@@ -206,7 +207,7 @@
 
 
 
-            <h4 class="visually-hidden">Выбрать категорию</h4>
+            <!-- <h4 class="visually-hidden">Выбрать категорию</h4> -->
             <div class="tabs mobilenone">
               <div class="tabs__nav tabs-nav">
                 <button data-tab-name="sofa" class="tabs-nav__item is-active" type="button" value="Submit"
@@ -279,7 +280,7 @@
                       <div class="tab__description">Для своих клиентов мы с легкостью перешьем диваны от маленьких до
                         больших обьемов</div>
                       <div class="tab__btns">
-                        <a tabindex="0" class="tab__btn next-category">
+                        <a tabindex="0" class="tab__btn next-category" aria-label="Выбрать категорию">
                           <span>Следующая категория</span>
                           <svg width="25" height="8" xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -336,14 +337,14 @@
                       <div class="tab__description">Для своих клиентов мы с легкостью перешьем кресла от маленьких до
                         больших обьемов</div>
                       <div class="tab__btns">
-                        <a class="tab__btn next-category">
+                        <a class="tab__btn next-category" aria-label="Выбрать категорию">
                           <span>Следующая категория</span>
                           <svg width="25" height="8" xmlns="http://www.w3.org/2000/svg">
                             <path
                               d="M24.354 4.354a.5.5 0 000-.708L21.172.464a.5.5 0 10-.707.708L23.293 4l-2.828 2.828a.5.5 0 10.707.708l3.182-3.182zM0 4.5h12v-1H0v1zm12 0h12v-1H12v1z" />
                           </svg>
                         </a>
-                        <a class="tab__btn prev-category">
+                        <a class="tab__btn prev-category" aria-label="Выбрать категорию">
                           <svg width="25" height="8" xmlns="http://www.w3.org/2000/svg">
                             <path
                               d="M24.354 4.354a.5.5 0 000-.708L21.172.464a.5.5 0 10-.707.708L23.293 4l-2.828 2.828a.5.5 0 10.707.708l3.182-3.182zM0 4.5h12v-1H0v1zm12 0h12v-1H12v1z" />
@@ -384,14 +385,14 @@
                       <div class="tab__description">Для своих клиентов мы с легкостью перешьем стулья от маленьких до
                         больших обьемов</div>
                       <div class="tab__btns">
-                        <a class="tab__btn next-category">
-                          <span>Следующая категория</span>
-                          <svg width="25" height="8" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                              d="M24.354 4.354a.5.5 0 000-.708L21.172.464a.5.5 0 10-.707.708L23.293 4l-2.828 2.828a.5.5 0 10.707.708l3.182-3.182zM0 4.5h12v-1H0v1zm12 0h12v-1H12v1z" />
-                          </svg>
+                        aria-label="Выбрать категорию"
+                        <span>Следующая категория</span>
+                        <svg width="25" height="8" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M24.354 4.354a.5.5 0 000-.708L21.172.464a.5.5 0 10-.707.708L23.293 4l-2.828 2.828a.5.5 0 10.707.708l3.182-3.182zM0 4.5h12v-1H0v1zm12 0h12v-1H12v1z" />
+                        </svg>
                         </a>
-                        <button class="tab__btn prev-category">
+                        <button class="tab__btn prev-category" aria-label="Выбрать категорию">
                           <svg width="25" height="8" xmlns="http://www.w3.org/2000/svg">
                             <path
                               d="M24.354 4.354a.5.5 0 000-.708L21.172.464a.5.5 0 10-.707.708L23.293 4l-2.828 2.828a.5.5 0 10.707.708l3.182-3.182zM0 4.5h12v-1H0v1zm12 0h12v-1H12v1z" />
@@ -432,14 +433,14 @@
                       <div class="tab__description">Для своих клиентов мы с легкостью перешьем кровати от маленьких до
                         больших обьемов</div>
                       <div class="tab__btns">
-                        <a class="tab__btn next-category">
-                          <span>Следующая категория</span>
-                          <svg width="25" height="8" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                              d="M24.354 4.354a.5.5 0 000-.708L21.172.464a.5.5 0 10-.707.708L23.293 4l-2.828 2.828a.5.5 0 10.707.708l3.182-3.182zM0 4.5h12v-1H0v1zm12 0h12v-1H12v1z" />
-                          </svg>
+                        aria-label="Выбрать категорию"
+                        <span>Следующая категория</span>
+                        <svg width="25" height="8" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M24.354 4.354a.5.5 0 000-.708L21.172.464a.5.5 0 10-.707.708L23.293 4l-2.828 2.828a.5.5 0 10.707.708l3.182-3.182zM0 4.5h12v-1H0v1zm12 0h12v-1H12v1z" />
+                        </svg>
                         </a>
-                        <button class="tab__btn prev-category">
+                        <button class="tab__btn prev-category" aria-label="Выбрать категорию">
                           <svg width="25" height="8" xmlns="http://www.w3.org/2000/svg">
                             <path
                               d="M24.354 4.354a.5.5 0 000-.708L21.172.464a.5.5 0 10-.707.708L23.293 4l-2.828 2.828a.5.5 0 10.707.708l3.182-3.182zM0 4.5h12v-1H0v1zm12 0h12v-1H12v1z" />
@@ -480,14 +481,14 @@
                       <div class="tab__description">Для своих клиентов мы с легкостью перешьем стулья от маленьких до
                         больших обьемов</div>
                       <div class="tab__btns">
-                        <a class="tab__btn next-category">
-                          <span>Следующая категория</span>
-                          <svg width="25" height="8" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                              d="M24.354 4.354a.5.5 0 000-.708L21.172.464a.5.5 0 10-.707.708L23.293 4l-2.828 2.828a.5.5 0 10.707.708l3.182-3.182zM0 4.5h12v-1H0v1zm12 0h12v-1H12v1z" />
-                          </svg>
+                        aria-label="Выбрать категорию"
+                        <span>Следующая категория</span>
+                        <svg width="25" height="8" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M24.354 4.354a.5.5 0 000-.708L21.172.464a.5.5 0 10-.707.708L23.293 4l-2.828 2.828a.5.5 0 10.707.708l3.182-3.182zM0 4.5h12v-1H0v1zm12 0h12v-1H12v1z" />
+                        </svg>
                         </a>
-                        <button class="tab__btn prev-category">
+                        <button class="tab__btn prev-category" aria-label="Выбрать категорию">
                           <svg width="25" height="8" xmlns="http://www.w3.org/2000/svg">
                             <path
                               d="M24.354 4.354a.5.5 0 000-.708L21.172.464a.5.5 0 10-.707.708L23.293 4l-2.828 2.828a.5.5 0 10.707.708l3.182-3.182zM0 4.5h12v-1H0v1zm12 0h12v-1H12v1z" />
@@ -527,14 +528,14 @@
                       <div class="tab__description">Для своих клиентов мы с легкостью перешьем стулья от маленьких до
                         больших обьемов</div>
                       <div class="tab__btns">
-                        <a class="tab__btn next-category">
+                        <a class="tab__btn next-category" aria-label="Выбрать категорию">
                           <span>Следующая категория</span>
                           <svg width="25" height="8" xmlns="http://www.w3.org/2000/svg">
                             <path
                               d="M24.354 4.354a.5.5 0 000-.708L21.172.464a.5.5 0 10-.707.708L23.293 4l-2.828 2.828a.5.5 0 10.707.708l3.182-3.182zM0 4.5h12v-1H0v1zm12 0h12v-1H12v1z" />
                           </svg>
                         </a>
-                        <button class="tab__btn prev-category">
+                        <button class="tab__btn prev-category" aria-label="Выбрать категорию">
                           <svg width="25" height="8" xmlns="http://www.w3.org/2000/svg">
                             <path
                               d="M24.354 4.354a.5.5 0 000-.708L21.172.464a.5.5 0 10-.707.708L23.293 4l-2.828 2.828a.5.5 0 10.707.708l3.182-3.182zM0 4.5h12v-1H0v1zm12 0h12v-1H12v1z" />
@@ -625,7 +626,7 @@
                   </svg>
 
                 </button>
-                <button data-tab="another" class="category">
+                <button data-tab="another" class="category" aria-label="Выбратьвсе категории">
                   Другие категории
                 </button>
               </div>
@@ -643,7 +644,7 @@
                       <div class="tab__description">Для своих клиентов мы с легкостью перешьем диваны от маленьких до
                         больших обьемов</div>
                       <div class="tab__btns">
-                        <button class="tab__btn next-category">
+                        <button class="tab__btn next-category" aria-label="Выбрать">
                           <span>Следующая категория</span>
                           <svg width="25" height="8" xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -681,14 +682,14 @@
                       <div class="tab__description">Для своих клиентов мы с легкостью перешьем кресла от маленьких до
                         больших обьемов</div>
                       <div class="tab__btns">
-                        <button name="" class="tab__btn next-category">
+                        <button name="" class="tab__btn next-category" aria-label="Выбрать категорию">
                           <span>Следующая категория</span>
                           <svg width="25" height="8" xmlns="http://www.w3.org/2000/svg">
                             <path
                               d="M24.354 4.354a.5.5 0 000-.708L21.172.464a.5.5 0 10-.707.708L23.293 4l-2.828 2.828a.5.5 0 10.707.708l3.182-3.182zM0 4.5h12v-1H0v1zm12 0h12v-1H12v1z" />
                           </svg>
                         </button>
-                        <button class="tab__btn prev-category">
+                        <button class="tab__btn prev-category" aria-label="Выбрать категорию">
                           <svg width="25" height="8" xmlns="http://www.w3.org/2000/svg">
                             <path
                               d="M24.354 4.354a.5.5 0 000-.708L21.172.464a.5.5 0 10-.707.708L23.293 4l-2.828 2.828a.5.5 0 10.707.708l3.182-3.182zM0 4.5h12v-1H0v1zm12 0h12v-1H12v1z" />
@@ -726,14 +727,14 @@
                       <div class="tab__description">Для своих клиентов мы с легкостью перешьем стулья от маленьких до
                         больших обьемов</div>
                       <div class="tab__btns">
-                        <button class="tab__btn next-category">
+                        <button class="tab__btn next-category" aria-label="Выбрать категорию">
                           <span>Следующая категория</span>
                           <svg width="25" height="8" xmlns="http://www.w3.org/2000/svg">
                             <path
                               d="M24.354 4.354a.5.5 0 000-.708L21.172.464a.5.5 0 10-.707.708L23.293 4l-2.828 2.828a.5.5 0 10.707.708l3.182-3.182zM0 4.5h12v-1H0v1zm12 0h12v-1H12v1z" />
                           </svg>
                         </button>
-                        <button class="tab__btn prev-category">
+                        <button class="tab__btn prev-category" aria-label="Выбрать категорию">
                           <svg width="25" height="8" xmlns="http://www.w3.org/2000/svg">
                             <path
                               d="M24.354 4.354a.5.5 0 000-.708L21.172.464a.5.5 0 10-.707.708L23.293 4l-2.828 2.828a.5.5 0 10.707.708l3.182-3.182zM0 4.5h12v-1H0v1zm12 0h12v-1H12v1z" />
@@ -771,14 +772,14 @@
                       <div class="tab__description">Для своих клиентов мы с легкостью перешьем кровати от маленьких до
                         больших обьемов</div>
                       <div class="tab__btns">
-                        <button class="tab__btn next-category">
+                        <button class="tab__btn next-category" aria-label="Выбрать категорию">
                           <span>Следующая категория</span>
                           <svg width="25" height="8" xmlns="http://www.w3.org/2000/svg">
                             <path
                               d="M24.354 4.354a.5.5 0 000-.708L21.172.464a.5.5 0 10-.707.708L23.293 4l-2.828 2.828a.5.5 0 10.707.708l3.182-3.182zM0 4.5h12v-1H0v1zm12 0h12v-1H12v1z" />
                           </svg>
                         </button>
-                        <button class="tab__btn prev-category">
+                        <button class="tab__btn prev-category" aria-label="Выбрать категорию">
                           <svg width="25" height="8" xmlns="http://www.w3.org/2000/svg">
                             <path
                               d="M24.354 4.354a.5.5 0 000-.708L21.172.464a.5.5 0 10-.707.708L23.293 4l-2.828 2.828a.5.5 0 10.707.708l3.182-3.182zM0 4.5h12v-1H0v1zm12 0h12v-1H12v1z" />
@@ -816,14 +817,14 @@
                       <div class="tab__description">Для своих клиентов мы с легкостью перешьем стулья от маленьких до
                         больших обьемов</div>
                       <div class="tab__btns">
-                        <button class="tab__btn next-category">
+                        <button class="tab__btn next-category" aria-label="Выбрать категорию">
                           <span>Следующая категория</span>
                           <svg width="25" height="8" xmlns="http://www.w3.org/2000/svg">
                             <path
                               d="M24.354 4.354a.5.5 0 000-.708L21.172.464a.5.5 0 10-.707.708L23.293 4l-2.828 2.828a.5.5 0 10.707.708l3.182-3.182zM0 4.5h12v-1H0v1zm12 0h12v-1H12v1z" />
                           </svg>
                         </button>
-                        <button class="tab__btn prev-category">
+                        <button class="tab__btn prev-category" aria-label="Выбрать категорию">
                           <svg width="25" height="8" xmlns="http://www.w3.org/2000/svg">
                             <path
                               d="M24.354 4.354a.5.5 0 000-.708L21.172.464a.5.5 0 10-.707.708L23.293 4l-2.828 2.828a.5.5 0 10.707.708l3.182-3.182zM0 4.5h12v-1H0v1zm12 0h12v-1H12v1z" />
@@ -861,14 +862,14 @@
                       <div class="tab__description">Для своих клиентов мы с легкостью перешьем стулья от маленьких до
                         больших обьемов</div>
                       <div class="tab__btns">
-                        <button class="tab__btn next-category">
+                        <button class="tab__btn next-category" aria-label="Выбрать категорию">
                           <span>Следующая категория</span>
                           <svg width="25" height="8" xmlns="http://www.w3.org/2000/svg">
                             <path
                               d="M24.354 4.354a.5.5 0 000-.708L21.172.464a.5.5 0 10-.707.708L23.293 4l-2.828 2.828a.5.5 0 10.707.708l3.182-3.182zM0 4.5h12v-1H0v1zm12 0h12v-1H12v1z" />
                           </svg>
                         </button>
-                        <button class="tab__btn prev-category">
+                        <button class="tab__btn prev-category" aria-label="Выбрать категорию">
                           <svg width="25" height="8" xmlns="http://www.w3.org/2000/svg">
                             <path
                               d="M24.354 4.354a.5.5 0 000-.708L21.172.464a.5.5 0 10-.707.708L23.293 4l-2.828 2.828a.5.5 0 10.707.708l3.182-3.182zM0 4.5h12v-1H0v1zm12 0h12v-1H12v1z" />
@@ -903,7 +904,7 @@
                     </div>
                     <div class="tab__info">
                       <div class="tab__btns">
-                        <button class="tab__btn prev-category">
+                        <button class="tab__btn prev-category" aria-label="Выбрать категорию">
                           <svg width="25" height="8" xmlns="http://www.w3.org/2000/svg">
                             <path
                               d="M24.354 4.354a.5.5 0 000-.708L21.172.464a.5.5 0 10-.707.708L23.293 4l-2.828 2.828a.5.5 0 10.707.708l3.182-3.182zM0 4.5h12v-1H0v1zm12 0h12v-1H12v1z" />
@@ -931,7 +932,7 @@
                 </div>
               </div>
             </div>
-            <button class="examples__btn button-2">Больше примеров</button>
+            <button class="examples__btn button-2" aria-label="Открыть">Больше примеров</button>
           </div>
         </div>
       </div>
@@ -1035,7 +1036,8 @@
             </tr>
           </tbody>
         </table>
-        <button class="banner-cost__more-button button-inline opened button-2">Развернуть прайс</button>
+        <button class="banner-cost__more-button button-inline opened button-2" aria-label="Открыть">Развернуть
+          прайс</button>
       </div>
       <p class="banner-cost__photo">
         <picture>
@@ -1188,13 +1190,13 @@
             <div class="banner__description">Закажи перешивку дивана и кресла у нашей компании и получи скидку в 20%
               на
               второй продукт</div>
-            <button class="banner__btn button-1"><span>Заказать перешивку</span></button>
+            <button class="banner__btn button-1" aria-label="Оформить заказ"><span>Заказать перешивку</span></button>
           </div>
         </div>
       </div>
     </section>
     <section data-ref="feedbacks" class="feedbacks">
-      <a href="#" name="feedbacks"></a>
+      <!-- <a href="#" name="feedbacks" aria-label=""></a> -->
       <div class="container-border">
         <div class="container">
           <div class="feedbacks__body">
@@ -1216,17 +1218,17 @@
                   </div>
                 </div>
                 <div class="slider__arrows">
-                  <button class="slider__arrow arrow-prev">
+                  <button class="slider__arrow arrow-prev" aria-label="Предыдущий отзыв">
                     <svg width="14" height="27" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M1 1l11 12.5L1 26" /></svg>
                   </button>
-                  <button class="slider__arrow arrow-next">
+                  <button class="slider__arrow arrow-next" aria-label="Следующий отзыв">
                     <svg width="14" height="27" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M1 1l11 12.5L1 26" /></svg>
                   </button>
                 </div>
               </div>
-              <button class="feedbacks__btn button-3">Оставить отзыв</button>
+              <button class="feedbacks__btn button-3" aria-label="Открытие формы">Оставить отзыв</button>
             </div>
             <div class="feedbacks__pictures">
               <div class="feedbacks__picture">
@@ -1259,14 +1261,14 @@
                   <p class="materials-form__description">Вы можете выбрать понравившиеся материалы и мы приедем к
                     вам
                     с выбранными образцами</p>
-                  <form action="#" class="form" aria-colcount="form">
+                  <form action="#" class="form" aria-colcount="form" id="form-order">
                     <label class="visually-hidden" for="user-name">Введите ваше имя</label>
                     <input id="user-name" required placeholder="Ваше имя" autocomplete="off" class="input" name="name"
-                      value="" type="text">
+                      value="" type="text" aria-labelledby="form-order">
                     <label class="visually-hidden" for="user-phone">Введите ваш номер телефона</label>
                     <input aria-labelledby="billig phone" id="user-phone" required placeholder="Номер телефона"
-                      autocomplete="off" class="input" name="phone" value="" type="text">
-                    <button class="button-1" type="submit" formmethod="POST"> <span>Бесплатный
+                      autocomplete="off" class="input" name="phone" value="" type="text" aria-labelledby="form-order">
+                    <button class="button-1" type="submit" formmethod="POST" aria-label="Заказать"> <span>Бесплатный
                         выезд</span></button>
                   </form>
                 </div>
@@ -1294,7 +1296,7 @@
                                   <img src="img/selection/wool/picture-1.png" alt="Фото образца материала">
                                 </picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -1309,7 +1311,7 @@
                                   <img src="img/selection/wool/picture-2.png" alt="Фото образца материала">
                                 </picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -1324,7 +1326,7 @@
                                   <img src="img/selection/wool/picture-3.png" alt="Фото образца материала">
                                 </picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -1339,7 +1341,7 @@
                                   <img src="img/selection/wool/picture-4.png" alt="Фото образца материала">
                                 </picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -1354,7 +1356,7 @@
                                   <img src="img/selection/wool/picture-5.png" alt="Фото образца материала">
                                 </picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -1369,7 +1371,7 @@
                                   <img src="img/selection/wool/picture-6.png" alt="Фото образца материала">
                                 </picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -1384,7 +1386,7 @@
                                   <img src="img/selection/wool/picture-2.png" alt="Фото образца материала">
                                 </picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -1399,7 +1401,7 @@
                                   <img src="img/selection/wool/picture-3.png" alt="Фото образца материала">
                                 </picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -1407,13 +1409,13 @@
                             </div>
                           </div>
                           <div class="slider__arrows">
-                            <button class="slider__arrow arrow-next" name="Предыдущий отзыв">
+                            <button class="slider__arrow arrow-next" aria-label="Следующий материал">
                               <svg width="14" height="27" viewBox="0 0 14 27" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 1L12 13.5L1 26" stroke-width="2" />
                               </svg>
                             </button>
-                            <button class="slider__arrow arrow-prev _unactive" name="Следующий отзыв">
+                            <button class="slider__arrow arrow-prev _unactive" aria-label="Предыдущий материал">
                               <svg width="14" height="27" viewBox="0 0 14 27" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 1L12 13.5L1 26" stroke-width="2" />
@@ -1436,7 +1438,7 @@
                                   <source srcset="img/selection/wool/picture-1.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-1.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -1448,7 +1450,7 @@
                                   <source srcset="img/selection/wool/picture-2.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-2.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -1460,7 +1462,7 @@
                                   <source srcset="img/selection/wool/picture-3.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-3.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -1472,7 +1474,7 @@
                                   <source srcset="img/selection/wool/picture-4.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-4.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -1484,7 +1486,7 @@
                                   <source srcset="img/selection/wool/picture-5.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-5.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -1496,7 +1498,7 @@
                                   <source srcset="img/selection/wool/picture-6.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-6.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -1508,7 +1510,7 @@
                                   <source srcset="img/selection/wool/picture-2.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-2.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -1520,7 +1522,7 @@
                                   <source srcset="img/selection/wool/picture-3.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-3.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -1528,13 +1530,13 @@
                             </div>
                           </div>
                           <div class="slider__arrows">
-                            <button class="slider__arrow arrow-next ">
+                            <button class="slider__arrow arrow-next " aria-label="Предыдущий материал">
                               <svg width="14" height="27" viewBox="0 0 14 27" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 1L12 13.5L1 26" stroke-width="2" />
                               </svg>
                             </button>
-                            <button class="slider__arrow arrow-prev _unactive">
+                            <button class="slider__arrow arrow-prev _unactive" aria-label="Следующий материал">
                               <svg width="14" height="27" viewBox="0 0 14 27" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 1L12 13.5L1 26" stroke-width="2" />
@@ -1556,7 +1558,7 @@
                                   <source srcset="img/selection/wool/picture-1.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-1.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -1568,7 +1570,7 @@
                                   <source srcset="img/selection/wool/picture-2.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-2.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -1580,7 +1582,7 @@
                                   <source srcset="img/selection/wool/picture-3.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-3.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -1592,7 +1594,7 @@
                                   <source srcset="img/selection/wool/picture-4.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-4.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -1604,7 +1606,7 @@
                                   <source srcset="img/selection/wool/picture-5.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-5.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -1616,7 +1618,7 @@
                                   <source srcset="img/selection/wool/picture-6.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-6.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -1628,7 +1630,7 @@
                                   <source srcset="img/selection/wool/picture-2.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-2.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -1640,7 +1642,7 @@
                                   <source srcset="img/selection/wool/picture-3.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-3.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -1648,13 +1650,13 @@
                             </div>
                           </div>
                           <div class="slider__arrows">
-                            <button class="slider__arrow arrow-next ">
+                            <button class="slider__arrow arrow-next" aria-label="Следующий материал">
                               <svg width="14" height="27" viewBox="0 0 14 27" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 1L12 13.5L1 26" stroke-width="2" />
                               </svg>
                             </button>
-                            <button class="slider__arrow arrow-prev _unactive">
+                            <button class="slider__arrow arrow-prev _unactive" aria-label="Предыдущий материал">
                               <svg width="14" height="27" viewBox="0 0 14 27" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 1L12 13.5L1 26" stroke-width="2" />
@@ -1677,7 +1679,7 @@
                                   <source srcset="img/selection/wool/picture-1.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-1.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -1689,7 +1691,7 @@
                                   <source srcset="img/selection/wool/picture-2.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-2.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -1701,7 +1703,7 @@
                                   <source srcset="img/selection/wool/picture-3.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-3.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -1713,7 +1715,7 @@
                                   <source srcset="img/selection/wool/picture-4.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-4.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -1725,7 +1727,7 @@
                                   <source srcset="img/selection/wool/picture-5.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-5.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -1737,7 +1739,7 @@
                                   <source srcset="img/selection/wool/picture-6.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-6.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -1749,7 +1751,7 @@
                                   <source srcset="img/selection/wool/picture-2.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-2.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -1761,7 +1763,7 @@
                                   <source srcset="img/selection/wool/picture-3.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-3.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -1769,13 +1771,13 @@
                             </div>
                           </div>
                           <div class="slider__arrows">
-                            <button class="slider__arrow arrow-next ">
+                            <button class="slider__arrow arrow-next" aria-label="Следующий материал">
                               <svg width="14" height="27" viewBox="0 0 14 27" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 1L12 13.5L1 26" stroke-width="2" />
                               </svg>
                             </button>
-                            <button class="slider__arrow arrow-prev _unactive">
+                            <button class="slider__arrow arrow-prev _unactive" aria-label="Предыдущий материал">
                               <svg width="14" height="27" viewBox="0 0 14 27" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 1L12 13.5L1 26" stroke-width="2" />
@@ -1799,7 +1801,7 @@
                                   <source srcset="img/selection/wool/picture-1.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-1.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -1811,7 +1813,7 @@
                                   <source srcset="img/selection/wool/picture-2.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-2.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -1823,7 +1825,7 @@
                                   <source srcset="img/selection/wool/picture-3.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-3.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -1835,7 +1837,7 @@
                                   <source srcset="img/selection/wool/picture-4.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-4.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -1847,7 +1849,7 @@
                                   <source srcset="img/selection/wool/picture-5.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-5.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -1859,7 +1861,7 @@
                                   <source srcset="img/selection/wool/picture-6.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-6.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -1871,7 +1873,7 @@
                                   <source srcset="img/selection/wool/picture-2.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-2.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -1883,7 +1885,7 @@
                                   <source srcset="img/selection/wool/picture-3.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-3.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -1891,13 +1893,13 @@
                             </div>
                           </div>
                           <div class="slider__arrows">
-                            <button class="slider__arrow arrow-next ">
+                            <button class="slider__arrow arrow-next" aria-label="Следующий материал">
                               <svg width="14" height="27" viewBox="0 0 14 27" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 1L12 13.5L1 26" stroke-width="2" />
                               </svg>
                             </button>
-                            <button class="slider__arrow arrow-prev _unactive">
+                            <button class="slider__arrow arrow-prev _unactive" aria-label="Предыдущий материал">
                               <svg width="14" height="27" viewBox="0 0 14 27" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 1L12 13.5L1 26" stroke-width="2" />
@@ -1919,7 +1921,7 @@
                                   <source srcset="img/selection/wool/picture-1.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-1.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -1931,7 +1933,7 @@
                                   <source srcset="img/selection/wool/picture-2.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-2.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -1943,7 +1945,7 @@
                                   <source srcset="img/selection/wool/picture-3.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-3.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -1955,7 +1957,7 @@
                                   <source srcset="img/selection/wool/picture-4.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-4.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -1967,7 +1969,7 @@
                                   <source srcset="img/selection/wool/picture-5.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-5.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -1979,7 +1981,7 @@
                                   <source srcset="img/selection/wool/picture-6.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-6.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -1991,7 +1993,7 @@
                                   <source srcset="img/selection/wool/picture-2.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-2.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -2003,7 +2005,7 @@
                                   <source srcset="img/selection/wool/picture-3.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-3.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -2011,13 +2013,13 @@
                             </div>
                           </div>
                           <div class="slider__arrows">
-                            <button class="slider__arrow arrow-next ">
+                            <button class="slider__arrow arrow-next " aria-label="Следующий материал">
                               <svg width="14" height="27" viewBox="0 0 14 27" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 1L12 13.5L1 26" stroke-width="2" />
                               </svg>
                             </button>
-                            <button class="slider__arrow arrow-prev _unactive">
+                            <button class="slider__arrow arrow-prev _unactive" aria-label="Предыдущий материал">
                               <svg width="14" height="27" viewBox="0 0 14 27" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 1L12 13.5L1 26" stroke-width="2" />
@@ -2039,7 +2041,7 @@
                                   <source srcset="img/selection/wool/picture-1.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-1.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -2051,7 +2053,7 @@
                                   <source srcset="img/selection/wool/picture-2.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-2.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -2063,7 +2065,7 @@
                                   <source srcset="img/selection/wool/picture-3.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-3.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -2075,7 +2077,7 @@
                                   <source srcset="img/selection/wool/picture-4.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-4.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -2087,7 +2089,7 @@
                                   <source srcset="img/selection/wool/picture-5.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-5.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -2099,7 +2101,7 @@
                                   <source srcset="img/selection/wool/picture-6.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-6.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -2111,7 +2113,7 @@
                                   <source srcset="img/selection/wool/picture-2.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-2.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -2123,7 +2125,7 @@
                                   <source srcset="img/selection/wool/picture-3.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-3.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -2131,13 +2133,13 @@
                             </div>
                           </div>
                           <div class="slider__arrows">
-                            <button class="slider__arrow arrow-next ">
+                            <button class="slider__arrow arrow-next " aria-label="Следующий материал">
                               <svg width="14" height="27" viewBox="0 0 14 27" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 1L12 13.5L1 26" stroke-width="2" />
                               </svg>
                             </button>
-                            <button class="slider__arrow arrow-prev _unactive">
+                            <button class="slider__arrow arrow-prev _unactive" aria-label="Предыдущий материал">
                               <svg width="14" height="27" viewBox="0 0 14 27" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 1L12 13.5L1 26" stroke-width="2" />
@@ -2160,7 +2162,7 @@
                                   <source srcset="img/selection/wool/picture-1.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-1.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -2172,7 +2174,7 @@
                                   <source srcset="img/selection/wool/picture-2.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-2.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -2184,7 +2186,7 @@
                                   <source srcset="img/selection/wool/picture-3.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-3.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -2196,7 +2198,7 @@
                                   <source srcset="img/selection/wool/picture-4.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-4.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -2208,7 +2210,7 @@
                                   <source srcset="img/selection/wool/picture-5.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-5.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -2220,7 +2222,7 @@
                                   <source srcset="img/selection/wool/picture-6.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-6.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -2232,7 +2234,7 @@
                                   <source srcset="img/selection/wool/picture-2.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-2.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -2244,7 +2246,7 @@
                                   <source srcset="img/selection/wool/picture-3.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-3.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -2280,7 +2282,7 @@
                                   <source srcset="img/selection/wool/picture-1.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-1.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -2292,7 +2294,7 @@
                                   <source srcset="img/selection/wool/picture-2.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-2.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -2304,7 +2306,7 @@
                                   <source srcset="img/selection/wool/picture-3.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-3.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -2316,7 +2318,7 @@
                                   <source srcset="img/selection/wool/picture-4.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-4.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -2328,7 +2330,7 @@
                                   <source srcset="img/selection/wool/picture-5.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-5.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -2340,7 +2342,7 @@
                                   <source srcset="img/selection/wool/picture-6.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-6.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -2352,7 +2354,7 @@
                                   <source srcset="img/selection/wool/picture-2.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-2.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -2364,7 +2366,7 @@
                                   <source srcset="img/selection/wool/picture-3.webp" type="image/webp"><img
                                     src="img/selection/wool/picture-3.png" alt="Фото образца материала"></picture>
                               </div>
-                              <button class="selection-block-item__btn">
+                              <button class="selection-block-item__btn" aria-label="Выбрать материал">
                                 <svg>
                                   <use xlink:href="img/icons/sprite.svg#plus"></use>
                                 </svg>
@@ -2392,8 +2394,8 @@
                       </div> -->
                     </div>
                     <div class="selection-block__btn button-2">
-                      <button class="mat-list-open">Больше материалов</button>
-                      <button class="mat-list-close">Скрыть</button>
+                      <button class="mat-list-open" aria-label="Открыть">Больше материалов</button>
+                      <button class="mat-list-close" aria-label="Закрыть">Скрыть</button>
                     </div>
                     <div class="selection-block__chosen">
                       <div class="chosen">
@@ -2461,7 +2463,7 @@
             <p class="work-time">ПН-ВС: 9:00-19:00</p>
           </div>
           <h4 class="visually-hidden">Подняться на верх страницы</h4>
-          <button class="footer__top-btn">
+          <button class="footer__top-btn" aria-label="Подняться на верх страници">
             <svg width="35" height="35" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M9.875 21.5L17.85 13l7.975 8 .498.5" stroke="#fff" stroke-width="2" />
               <path
@@ -2473,7 +2475,7 @@
             </p>
             <p class="footer__text">Или закажите бесплатный выезд замерщика и он <br> сам рассчитает точную
               стоимость работ!</p>
-            <button class="footer__btn button-1"><span>Вызвать замерщика</span> </button>
+            <button class="footer__btn button-1" aria-label="Заказать вызов"><span>Вызвать замерщика</span> </button>
           </div>
         </div>
         <!-- </div> -->
@@ -2482,7 +2484,7 @@
           <div class="footer__icons">
             <div class="footer__icon">
               <h4 class="visually-hidden">Мы в youtube</h4>
-              <a class="footer__icon-link" href="#">
+              <a class="footer__icon-link" href="#" aria-label="Перейти на страницу youtube">
                 <svg width="42" height="42" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M21 42C9.419 42 0 32.581 0 21S9.419 0 21 0s21 9.419 21 21-9.426 21-21 21zm0-39.745C10.665 2.255 2.255 10.665 2.255 21S10.665 39.745 21 39.745 39.745 31.335 39.745 21 31.335 2.255 21 2.255z"
@@ -2494,7 +2496,7 @@
             </div>
             <div class="footer__icon">
               <h4 class="visually-hidden">Мы в instagramm</h4>
-              <a class="footer__icon-link" href="#">
+              <a class="footer__icon-link" href="#" aria-label="Перейти на страницу instagramm">
                 <svg width="42" height="42" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M21 42C9.42 42 0 32.58 0 21S9.42 0 21 0s21 9.42 21 21-9.42 21-21 21zm0-40.01C10.52 1.99 1.99 10.52 1.99 21c0 10.48 8.53 19.01 19.01 19.01 10.48 0 19.01-8.53 19.01-19.01C40.001 10.512 31.48 1.99 21 1.99zm7.08 10.481a1.557 1.557 0 101.557 1.557 1.562 1.562 0 00-1.557-1.557zm-6.91 1.999A6.536 6.536 0 0014.64 21a6.536 6.536 0 006.53 6.53A6.536 6.536 0 0027.7 21a6.536 6.536 0 00-6.53-6.53zm0 10.705a4.185 4.185 0 01-4.183-4.183 4.185 4.185 0 014.183-4.183 4.185 4.185 0 014.183 4.183 4.185 4.185 0 01-4.183 4.183zm13.17-9.605a7.96 7.96 0 00-7.963-7.963H15.864a7.96 7.96 0 00-7.963 7.963v10.51a7.96 7.96 0 007.963 7.964h10.512a7.96 7.96 0 007.963-7.964V15.57zm-2.488 10.51a5.468 5.468 0 01-5.468 5.47H15.872a5.468 5.468 0 01-5.469-5.47V15.57a5.468 5.468 0 015.469-5.469h10.512a5.468 5.468 0 015.468 5.469v10.51z"
@@ -2603,10 +2605,13 @@
             <input id="saveName" class="input-checkbox" name="saveName" value="saveName" type="checkbox">
             <span>Сохранить моё имя и email в этом браузере для последующих моих отзывов.</span>
           </label>
-          <div class="feedback-form__btn"><button class="button-1" type="submit" formmethod="POST"><span>Оставить
-                отзыв</span></button></div>
+          <div class="feedback-form__btn">
+            <button class="button-1" type="submit" formmethod="POST" aria-label="Открыть">
+              <span>Оставить отзыв</span>
+            </button>
+          </div>
         </form>
-        <button class="close-btn">
+        <button class="close-btn" aria-label="Выбрать категорию" aria-label="Закрыть окно">
           <svg>
             <use xlink:href="img/icons/sprite.svg#close"></use>
           </svg>
@@ -2620,7 +2625,6 @@
   <script src="js/main.js"></script>
   <script src="js/mainbundle.js"></script>
   <script src="js/script.js"></script>
-
 </body>
 
 </html>
