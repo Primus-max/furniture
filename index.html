@@ -54,8 +54,8 @@
           <p class="work-time">ПН-ВС: 9:00-19:00</p>
         </div>
       </div>
-      <button class="burger">
-        <span class="burger__img visually-hidden">Открыть меню</span>
+      <button id="menu_btn" class="burger">
+        <span aria-labelledby="menu_btn" class="burger__img visually-hidden">Открыть меню</span>
         <span class="burger__pseudo"></span>
       </button>
     </div>
@@ -1264,10 +1264,10 @@
                     <input id="user-name" required placeholder="Ваше имя" autocomplete="off" class="input" name="name"
                       value="" type="text">
                     <label class="visually-hidden" for="user-phone">Введите ваш номер телефона</label>
-                    <input id="user-phone" required placeholder="Номер телефона" autocomplete="off" class="input"
-                      name="phone" value="" type="text">
-                    <button class="button-1" type="submit" formmethod="POST">Бесплатный
-                      выезд</button>
+                    <input aria-labelledby="billig phone" id="user-phone" required placeholder="Номер телефона"
+                      autocomplete="off" class="input" name="phone" value="" type="text">
+                    <button class="button-1" type="submit" formmethod="POST"> <span>Бесплатный
+                        выезд</span></button>
                   </form>
                 </div>
               </div>
@@ -1279,8 +1279,10 @@
                       материалов,выбрать
                       понравившиеся и мы приедем к вам с образцами </div>
                     <div class="selection-block__items">
-                      <div data-materialCategory="ШЕРСТЬ" class="selection-block-item _open">
-                        <div tabindex="0" class="selection-block-item__title">ШЕРСТЬ</div>
+                      <div id="wool" data-materialCategory="ШЕРСТЬ" class="selection-block-item _open"
+                        aria-controls="select-wool">
+                        <span id="select-wool" aria-labelledby="wool" tabindex="0"
+                          class="selection-block-item__title">ШЕРСТЬ</span>
                         <div class="selection-block-item__slider slider">
                           <div class="slider__body">
                             <div data-material="wool-1" class="slider__item">
@@ -1423,8 +1425,9 @@
                           </div>
                         </div>
                       </div>
-                      <div data-materialcategory="КОЖЗАМ" class="selection-block-item">
-                        <div tabindex="0" class="selection-block-item__title">КОЖЗАМ</div>
+                      <div id="leatherette" data-materialcategory="КОЖЗАМ" class="selection-block-item">
+                        <span aria-labelledby="leatherette" tabindex="0"
+                          class="selection-block-item__title">КОЖЗАМ</span>
                         <div class="selection-block-item__slider slider">
                           <div class="slider__body">
                             <div data-material="wool-1" class="slider__item">
@@ -1543,8 +1546,8 @@
                           </div>
                         </div>
                       </div>
-                      <div data-materialcategory="РОГОЖКА" class="selection-block-item">
-                        <div tabindex="0" class="selection-block-item__title">РОГОЖКА</div>
+                      <div id="matting" data-materialcategory="РОГОЖКА" class="selection-block-item">
+                        <span aria-labelledby="matting" tabindex="0" class="selection-block-item__title">РОГОЖКА</span>
                         <div class="selection-block-item__slider slider">
                           <div class="slider__body">
                             <div data-material="wool-1" class="slider__item">
@@ -1663,8 +1666,9 @@
                           </div>
                         </div>
                       </div>
-                      <div data-materialcategory="ЗАМША" class="selection-block-item">
-                        <div tabindex="0" class="selection-block-item__title">ЗАМША</div>
+                      <div id="suede-leather" data-materialcategory="ЗАМША" class="selection-block-item">
+                        <span aria-labelledby="suede-leather" tabindex="0"
+                          class="selection-block-item__title">ЗАМША</span>
                         <div class="selection-block-item__slider slider">
                           <div class="slider__body">
                             <div data-material="wool-1" class="slider__item">
@@ -1783,8 +1787,10 @@
                           </div>
                         </div>
                       </div>
-                      <div data-materialcategory="ШЕНИЛЛ" class="selection-block-item">
-                        <div tabindex="0" class="selection-block-item__title">ШЕНИЛЛ</div>
+                      <div id="
+                      chenille" data-materialcategory="ШЕНИЛЛ" class="selection-block-item">
+                        <span aria-labelledby="
+                        chenille" tabindex="0" class="selection-block-item__title">ШЕНИЛЛ</span>
                         <div class="selection-block-item__slider slider">
                           <div class="slider__body">
                             <div data-material="wool-1" class="slider__item">
@@ -1903,8 +1909,8 @@
                           </div>
                         </div>
                       </div>
-                      <div data-materialcategory="ФЛОК" class="selection-block-item">
-                        <div tabindex="0" class="selection-block-item__title">ФЛОК</div>
+                      <div id="flock" data-materialcategory="ФЛОК" class="selection-block-item">
+                        <span aria-labelledby="flock" tabindex="0" class="selection-block-item__title">ФЛОК</span>
                         <div class="selection-block-item__slider slider">
                           <div class="slider__body">
                             <div data-material="wool-1" class="slider__item">
@@ -2023,8 +2029,8 @@
                           </div>
                         </div>
                       </div>
-                      <div data-materialcategory="ЖАККАРД" class="selection-block-item">
-                        <div tabindex="0" class="selection-block-item__title">ЖАККАРД</div>
+                      <div id="jacquard" data-materialcategory="ЖАККАРД" class="selection-block-item">
+                        <span aria-labelledby="jacquard" tabindex="0" class="selection-block-item__title">ЖАККАРД</span>
                         <div class="selection-block-item__slider slider">
                           <div class="slider__body">
                             <div data-material="wool-1" class="slider__item">
