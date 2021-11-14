@@ -566,6 +566,8 @@ h6 {
   .contacts {
     padding-left: 31px;
   }
+
+
 }
 
 
@@ -4701,9 +4703,16 @@ button {
     align-self: center;
   }
 
-  .slider__author {
+  .feedbacks__title::after {
+    top: 50px;
+    left: 104px;
+  }
 
-    text-align: center;
+
+
+  .slider__item {
+    justify-content: center;
+    align-items: center
   }
 
   .slider__text {
@@ -4721,7 +4730,7 @@ button {
     margin-left: 0;
   }
 
-  .feedbacks__body {}
+
 
   .feedbacks__btn {
     margin-top: 4px;
